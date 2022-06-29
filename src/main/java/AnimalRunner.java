@@ -36,11 +36,11 @@ public class AnimalRunner {
 
             if (birdSpeed > monsterSpeed) {
                System.out
-                     .println("Owl speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
+                     .println("Hawk speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
                System.out.println("You live another day buddy!");
             } else {
                System.out
-                     .println("Owl speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
+                     .println("Hawk speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
                System.out.println("Sad day. You died");
             }
          } else {

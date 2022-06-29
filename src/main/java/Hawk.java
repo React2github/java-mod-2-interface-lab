@@ -1,6 +1,6 @@
 
 public class Hawk implements CanFly {
     public int fly() {
-        return 100;
+        return 150;
     }
 }
