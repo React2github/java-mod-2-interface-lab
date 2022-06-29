@@ -41,13 +41,13 @@ public class AnimalRunner {
             } else {
                System.out
                      .println("Hawk speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
-               System.out.println("Sad day. You died");
+               System.out.println("Sad day. You died!");
             }
          } else {
-            System.out.println("You aint pick a bird!");
+            System.out.println("Pick one of these two birds!");
          }
       } catch (Exception e) {
-         System.out.println("There is an Error");
+         System.out.println("Enter a Positive Number!");
       }
 
    }
