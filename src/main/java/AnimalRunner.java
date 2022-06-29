@@ -22,12 +22,10 @@ public class AnimalRunner {
             int birdSpeed = birdChoice.fly();
 
             if (birdSpeed > monsterSpeed) {
-               System.out
-                     .println("Owl speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
+               System.out.println("Owl speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
                System.out.println("You live another day buddy!");
             } else {
-               System.out
-                     .println("Owl speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
+               System.out.println("Owl speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
                System.out.println("Sad day. You died");
             }
          } else if (birdType.equalsIgnoreCase("Hawk")) {
@@ -35,12 +33,10 @@ public class AnimalRunner {
             int birdSpeed = birdChoice.fly();
 
             if (birdSpeed > monsterSpeed) {
-               System.out
-                     .println("Hawk speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
+               System.out.println("Hawk speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
                System.out.println("You live another day buddy!");
             } else {
-               System.out
-                     .println("Hawk speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
+               System.out.println("Hawk speed was " + birdSpeed + " MPH." + " Monster speed was " + monsterSpeed + " MPH.");
                System.out.println("Sad day. You died!");
             }
          } else {
@@ -49,7 +45,5 @@ public class AnimalRunner {
       } catch (Exception e) {
          System.out.println("Enter a Positive Number!");
       }
-
    }
-
 }
